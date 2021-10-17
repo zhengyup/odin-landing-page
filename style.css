@@ -1,0 +1,156 @@
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.header {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.top {
+    display:flex;
+    justify-content: space-between;
+}
+
+ul {
+    display:flex;
+    gap:16px;
+    list-style-type: none;
+    margin-right: 300px;
+}
+
+.logo {
+    margin-left: 300px;
+    font-size:24px;
+    color:#F9FAF8;
+}
+
+.header-content {
+    display:flex;
+    gap:16px;
+    padding:50px 300px;
+}
+
+.header-content-left {
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+}
+
+img {
+    width:100%;
+    height:auto;
+}
+
+
+.main-text {
+    font-size: 43px;
+    font-weight:bolder;
+    color:#F9FAF8;
+    margin-bottom:0;
+}
+
+
+.header-content-right{
+    flex-shrink:1;
+}
+
+ul, .secondary-text{
+    color:#E5E7EB;
+    font-size:18px;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+.sign-up-1, .sign-up-2 {
+    background-color: #3882f6;
+    text-align:center;
+    color:white;
+    font-size:16px;
+    padding:10px 15px;
+    border-radius: 12px;
+    width:125px;
+    max-height:40px;
+}
+
+.content-1 {
+    display:flex;
+    flex-direction: column;
+}
+
+.content-1-text {
+    align-self: center;
+    font-size:36px;
+    font-weight:bolder;
+    color:#1f2937;
+}
+
+.images-with-subtext {
+    display:flex;
+    margin-left:300px;
+    margin-right:300px;
+    gap:50px;
+}
+
+.quote-section {
+    background-color:#e5e7eb;
+    padding:100px 300px;
+    font-size:30px;
+    font-style: italic;
+}
+
+.quote-author{
+    text-align: right;
+}
+.call-to-action {
+    padding:50px 300px;
+}
+
+.submit-entry{
+    display:flex;
+    border-radius:25px;
+    background-color:#3882f6;
+    align-content: center;
+    justify-content: space-evenly;
+    padding:25px 10px;
+}
+
+.call-left{
+    color:white;
+}
+
+.call {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sign-up-info {
+    font-size:16px;
+}
+
+.sign-up-2{
+    align-self:center;
+}
+
+.footer{
+    background-color: #1f2937;
+    color:white;
+    height: 50px;
+    padding:10px 300px;
+}
+
+.dokky {
+    height:400px;
+    width:300px;
+}
+
+
+
